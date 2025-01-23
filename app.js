@@ -4,6 +4,7 @@ const numeroLimite = 1000;
 let numeroSecreto = gerarNumeroAleatorio();
 iniciar();
 
+//comentario
 function gerarNumeroAleatorio() {
     numeroSorteado = parseInt(Math.random() * numeroLimite + 1);
     if (numerosSorteados.length == numeroLimite) {
